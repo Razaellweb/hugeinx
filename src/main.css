@@ -1,0 +1,1022 @@
+body {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    width: 97%;
+    height: 60px;
+    padding: .25em;
+    padding-top: 1em;
+    margin: 2em;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.navee {
+    display: flex;
+    width: 97%;
+    height: 50px;
+    margin: 0em;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    z-index: 1;
+    transition: all 3s ease;
+}
+.linkd:hover {
+    color: gray;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 0em;
+    padding-top: 1.25em;
+}
+
+.logo {
+    width: 50%;
+}
+
+.link:hover {
+    color: rgb(230, 78, 129);
+}
+
+.brand:hover {
+    background-color: red;
+    border-color: red;
+}
+
+.brand {
+    width: 60px;
+    height: 44px;
+    border: 1px solid white;
+    padding-top: 5px;
+    margin-left: 1em;
+}
+
+.flexhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.work {
+    background-color: rgba(57, 55, 55, 0.304);
+    padding-top: 50px;
+    height: fit-content;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.image {
+    width: 80%;
+    margin: 0 auto;
+    cursor: cell;
+    background: url(../public/images/new.png);
+    height: 80vh;
+}
+
+.headr {
+    margin-bottom: 20px;
+}
+
+.image3 {
+    width: 80%;
+    margin: 0 auto;
+    cursor: cell;
+    background: url(../public/images/desktop1.png);
+    background-size: cover;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.image5 {
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    background: url(../public/images/backgan.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.footer {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(81, 255, 81);
+    overflow-x: hidden;
+}
+
+.okay1 {
+    width: 31%;
+    font-size: large;
+}
+
+.okay2 {
+    width: 31%;
+}
+
+.okay3 {
+    width: 31%;
+    padding-right: 50px;
+}
+
+.img {
+    width: 100%;
+    margin: 0 auto;
+    cursor: cell;
+    background: url(../public/images/work.jpeg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.bar {
+    height: 40px;
+    width: 60px;
+    padding-top: 2px;
+    margin-right: 2em;
+}
+
+.reels {
+    background-color: rgba(57, 55, 55, 0.304);
+    height: fit-content;
+    padding-top: 50px;
+}
+
+.linkx {
+    width: 60px;
+    height: 44px;
+    padding-top: 5px;
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+.linkx:hover {
+    color: red;
+}
+
+.bar:hover {
+    border: 2px solid red;
+    border-radius: 90px;
+    transition: all 1s ease;
+    background-color: red;
+}
+
+.outcomes {
+    background-color: rgba(57, 55, 55, 0.304);
+    padding-top: 40px;
+    height: 100vh;
+}
+
+.andy {
+    margin-top: 130px;
+    margin-left: 85px;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.okiy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.tgy {
+    line-height: 1.7;
+}
+
+.okir {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    margin-right: 60px;
+}
+
+.huge {
+    font-size: 80px;
+    color: black;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.flexede {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.flexedf {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    color: black;
+}
+
+.hyge {
+    width: 50%;
+}
+
+.okio {
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 50px;
+}
+
+.flexout {
+    padding-right: 600px;
+}
+
+.verizona {
+    font-size: 120px;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 40px;
+    color: red;
+}
+
+.verizonh {
+    font-size: 120px;
+    font-weight: 900;
+    margin-top: 100px;
+    color: red;
+}
+
+.okidoki {
+    line-height: 1.8;
+    width: 30%;
+    float: right;
+    margin-top: 70px;
+}
+
+.flix {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 90px;
+    height: fit-content;
+}
+
+.flixe {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 90px;
+    height: 60vh;
+}
+
+.flex1 {
+    width: 50%;
+    padding-left: 50px;
+    font-size: large;
+}
+
+.flex2 {
+    width: 50%;
+    flex-wrap: wrap;
+    font-size: larger;
+    font-weight: 100;
+    padding-right: 50px;
+}
+
+.flex7 {
+    width: 50%;
+    flex-wrap: wrap;
+    font-size: larger;
+    font-weight: 100;
+    padding-right: 50px;
+}
+
+.okids {
+    margin-top: 30px;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url("../public/images/img1.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.introtext {
+    opacity: 1;
+}
+
+.verizon {
+    padding-top: 40vh;
+    padding-left: 2em;
+    color: red;
+    font-size: 90px;
+}
+
+.trans {
+    padding-left: 2em;
+    color: white;
+    font-size: 90px;
+}
+
+.para {
+    padding-left: 11.3em;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.overview {
+    background-color: black;
+    height: fit-content;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+}
+
+.overfirst {
+    width: 50%;
+    background-color: rgba(57, 55, 55, 0.304);
+    height: 85vh;
+    padding-top: 50px;
+}
+
+.oversecond {
+    width: 50%;
+    background-color: rgba(57, 55, 55, 0.304);
+    height: 85vh;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.flexit {
+    display: flex;
+    align-items: center;
+}
+
+.flexify {
+    display: flex;
+    align-items: center;
+}
+
+.flexifyu {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 50px;
+    height: 4px;
+    margin-right: 30px;
+    background-color: red;
+}
+
+.lineh {
+    width: 50px;
+    height: 2px;
+    margin-right: 30px;
+    background-color: red;
+    margin-bottom: 100px;
+}
+
+.linegh {
+    width: 600px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    height: 2px;
+    margin-right: 30px;
+    background-color: gray;
+}
+
+.lineghx {
+    width: 600px;
+    margin-bottom: 20px;
+    height: 2px;
+    margin-right: 30px;
+    background-color: gray;
+}
+
+.linex {
+    width: 50px;
+    height: 4px;
+    margin-right: 30px;
+    background-color: white;
+}
+
+.longline {
+    width: 390px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 2px;
+    background-color: red;
+}
+
+.medline {
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 2px;
+    background-color: red;
+}
+
+.slate {
+    margin-bottom: 60px;
+}
+
+.ever {
+    margin-top: 80px;
+}
+
+.every {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.lineshort {
+    width: 70px;
+    margin-bottom: 10px;
+    height: 2px;
+    background-color: red;
+}
+
+.lineshortx {
+    width: 70px;
+    margin-bottom: 10px;
+    height: 2px;
+    background-color: white;
+}
+
+.ppp {
+    margin-top: 105px;
+}
+
+.pppp {
+    margin-top: 45px;
+}
+
+.all {
+    padding-left: 80px;
+    padding-top: 12.5vh;
+}
+
+.gsy {
+    float: right;
+    margin-right: 30px;
+}
+
+.gst {
+    float: left;
+    margin-right: 30px;
+}
+
+.allf {
+    padding-left: 80px;
+    width: 50%;
+}
+
+.boldify {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.flexedg {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flexedy {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    color: black;
+}
+
+.fullbar {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    position: fixed;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: 1;
+}
+
+.hhuge {
+    width: 45%;
+    margin-top: 7vh;
+    animation: slidedown 1s linear 1;
+}
+.uhy {
+    animation: slidedown 2s linear 1;
+}
+
+@keyframes slidedown {
+    0% {
+        -webkit-transform: translateY(-100vh)
+    }
+    100% {
+        -webkit-transform: translateY(0)
+    }
+}
+.award {
+    background-color: rgba(57, 55, 55, 0.304);
+}
+.uge {
+    font-family: verdana;
+    font-weight: 900;
+}
+
+.flexifyjs {
+    display: flex;
+    align-items: center;
+}
+
+.linksd {
+    margin-top: 70px;
+    font-weight: 900;
+    font-size: 34px;
+    font-family: serif;
+}
+
+.linksde {
+    margin-top: 70px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.image6 {
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    background: url(../public/images/newbagan.jpeg);
+    background-size: cover;
+    display: none;
+    height: 100vh;
+}
+
+.fled {
+    display: flex;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: small;
+    justify-content: space-between;
+}
+
+.hhhuge {
+    width: 100%;
+    margin-top: 20vh;
+    margin-left: 60px;
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+.ijko {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 50px;
+}
+
+.ijko:hover {
+    color: red;
+}
+
+.flexitf {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.textifys {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-right: 150px;
+}
+
+
+@media (max-width: 500px) {
+    .links {
+        display: none;
+    }
+
+    .navbar {
+        margin: 0em;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+    .reels {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+
+    .okir {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70vh;
+    }
+    .hhhuge {
+        display: none;
+    }
+    .navee {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        margin-top: 2em;
+        margin-left: 0;
+        position: fixed;
+        top: 0;
+        margin-right: 0em;
+        background: transparent;
+        align-items: center;
+        color: white;
+        z-index: 1;
+        transition: all 3s ease;
+    }
+    .fled{
+        flex-direction: column;
+    }
+
+    .flexify {
+        display: none;
+    }
+
+    .oversecond {
+        width: 100%;
+        background-color: rgba(57, 55, 55, 0.304);
+        height: fit-content;
+        font-size: smaller;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .linksd {
+        margin-top: 70px;
+        font-weight: 900;
+        font-size: 20px;
+        font-family: serif;
+    }
+    .linksde {
+        font-size: 20px;
+    }
+    .ijko {
+        background-color: white;
+        width: 270px;
+        margin-right: 30px;
+    }
+    .footer {
+        height: max-content;
+        width: 100%;
+        background-color: rgb(81, 255, 81);
+    }
+    .fullbar {
+        overflow-x: hidden;
+    }
+
+    .image {
+        width: 90%;
+        cursor: cell;
+        background: url(../public/images/new.png);
+        height: 30vh;
+        margin: 0 auto;
+    }
+    .uge {
+        font-size: 20px;
+    }
+
+    .huge {
+        font-size: 40px;
+        color: black;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .gsy {
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-top: 0;
+        padding-left: 20px;
+    }
+
+    .gst {
+        float: left;
+        margin-top: 0;
+        padding-left: 20px;
+    }
+
+    .flexedf {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: black;
+    }
+     .image6 {
+        display: block;
+     }
+     .image5 {
+        display: none;
+     }
+    .okio {
+        font-size: 20px;
+    }
+
+    .flex1 {
+        width: 100%;
+        padding-left: 20px;
+        font-size: medium;
+    }
+
+    .verizonh {
+        font-size: 40px;
+        font-weight: 900;
+        margin-top: 10px;
+        color: red;
+    }
+
+    .allf {
+        padding-left: 20px;
+        width: 100%;
+        font-size: smaller;
+    }
+
+    .every {
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+
+    .flix {
+        padding-top: 30px;
+    }
+
+    .flexit {
+        font-size: xx-small;
+    }
+
+    .flexedy {
+        flex-direction: column;
+        height: 25vh;
+        padding-left: 20px;
+        justify-content: space-evenly;
+    }
+
+    .image3 {
+        width: 85%;
+        margin: 0 auto;
+        cursor: cell;
+        background: url(../public/images/desktop1.png);
+        background-size: cover;
+        height: 35vh;
+    }
+
+    .okiy {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70vh;
+        padding-left: 20px;
+    }
+
+    .flex2 {
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: medium;
+        font-weight: 100;
+        padding-left: 20px;
+        margin-bottom: 30px;
+        margin-top: 10vh;
+    }
+
+    .flex7 {
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: medium;
+        font-weight: 100;
+        padding-left: 20px;
+    }
+
+    .radical {
+        display: none;
+    }
+
+    .bar {
+        margin-top: 17px;
+        float: right;
+        margin-left: 9em;
+    }
+
+    .linkx {
+        width: 100%;
+        height: 44px;
+        margin-left: 8em;
+    }
+
+    .brand {
+        width: 40px;
+        height: 30px;
+        border: 1px solid white;
+        margin-top: 1em;
+        padding-top: 15px;
+        font-size: large;
+        margin-left: 1em;
+    }
+
+    .flexede {
+        flex-direction: column;
+    }
+
+    .manager {
+        font-size: small;
+    }
+
+    .ygh {
+        display: none;
+    }
+
+    .ppp {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .uswu {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .pppp {
+        word-wrap: break-word;
+    }
+
+    .okay1 {
+        width: 100%;
+        font-size: medium;
+    }
+
+    .okay2 {
+        width: 100%;
+        line-height: 1.8;
+        padding-left: 20px;
+    }
+
+    .okay3 {
+        width: 100%;
+        padding-left: 20px;
+        line-height: 1.8;
+    }
+    .boldify {
+        font-size: large;
+    }
+
+    .verizon {
+        padding-top: 25vh;
+        padding-left: .2em;
+        color: red;
+        font-size: 70px;
+    }
+
+    .flix {
+        flex-direction: column;
+    }
+
+    .trans {
+        padding-left: .5em;
+        color: white;
+        font-size: 50px;
+    }
+
+    .tgy {
+        font-size: x-small;
+    }
+
+    .para {
+        padding-left: 2em;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .flexed {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .flexedg {
+        flex-direction: column;
+    }
+
+    .okidoki {
+        line-height: 1.8;
+        width: 95%;
+        float: right;
+        margin-left: 70px;
+        padding-left: 50px;
+    }
+
+    .flixe {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px;
+        padding-bottom: 15vh;
+        padding-top: 90px;
+        height: 50vh;
+    }
+
+    .verizona {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .flexifyu {
+        flex-direction: column;
+    }
+    .award {
+        background-color: rgba(57, 55, 55, 0.304);
+    }
+
+    .all {
+        padding-left: 20px;
+        padding-top: 4.5vh;
+    }
+
+    .outcomes {
+        background-color: rgba(57, 55, 55, 0.304);
+        padding-top: 40px;
+        height: 110vh;
+    }
+
+    .line {
+        width: 20px;
+        height: 4px;
+        margin-right: 4px;
+        background-color: red;
+    }
+
+    .overview {
+        flex-direction: column;
+    }
+
+    .work {
+        background-color: rgba(57, 55, 55, 0.304);
+        padding-top: 50px;
+        height: fit-content;
+    }
+
+    .andy {
+        margin-top: 30px;
+        font-size: small;
+        margin-left: 85px;
+    }
+
+    .overfirst {
+        height: max-content;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .oversecond {
+        width: 100%;
+    }
+}
